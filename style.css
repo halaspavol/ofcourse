@@ -97,6 +97,7 @@ nav {
 	font-weight: bold;
 	font-size: 18pt;
 	text-align: center;
+	text-transform: uppercase;
 
 }
 
@@ -126,4 +127,26 @@ nav {
 }
 
 /*** Advertisement ***/
+.advertisement {
+	width: 100%;
+	height: 40px;
+}
 
+.ad {
+	width: 14%;
+	min-height: 100px;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-left: 14.5%;
+	margin-top: 75px;
+
+	border-radius: 6px;
+}
+
+.ad p {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14pt;
+	margin-top: 26px; 
+}
