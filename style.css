@@ -11,9 +11,21 @@ h1 {
 	text-align: center;
 	color: #242424;
 	font-weight: bold;
-	font-size: 14pt; 
-	margin: 35px 0;
+	font-size: 16pt; 
+	margin: 40px 0;
+	
 	text-transform: capitalize;
+}
+
+h6 {
+	color: white;
+	margin: 10px auto;
+	width: 95%;
+	font-size: 7.5pt; 
+	text-align: center;
+	clear: right;
+
+	
 }
 
 /***NAVBAR***/
@@ -146,9 +158,9 @@ nav {
 
 .ad {
 	width: 14%;
+	background-color: rgba(0, 0, 0, 0.5);
 	min-height: 100px;
 	float: left;
-	background-color: rgba(0, 0, 0, 0.5);
 	margin-left: 14.5%;
 	margin-top: 75px;
 
@@ -184,19 +196,35 @@ section {
 }
 
 .free-courses {
-
 	width: 100%;
-	height: 400px;	
+	height: 400px;
+	margin-top: 25px;	
 }
 
 .box {
-	border: 1px solid black;
+	background-color: #4d648d;
 	
 	width: 150px;
 	height: 250px;
+	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 }
 
 .box img {
 	width: 100%;
 
 }
+
+.box p {
+	color: white;
+	width: 95%;
+	margin: 3px auto;
+	font-size: 8pt;
+	text-align: justify;
+}
+
+.atributes {
+	position: relative;
+	width: 95%;
+	margin: 0 auto;
+}
+
