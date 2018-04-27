@@ -211,7 +211,6 @@ section {
 	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 }
 
-
 .box p {
 	color: white;
 	width: 95%;
@@ -230,6 +229,10 @@ section {
 
  }
 
+ .box img {
+ 	width: 100%;
+ 	height: 98.4333px;
+ }
 
 .atributes {
 	position: relative;
