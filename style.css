@@ -24,6 +24,7 @@ h6 {
 	font-size: 7.5pt; 
 	text-align: center;
 	clear: right;
+	text-transform: capitalize;
 
 	
 }
@@ -205,14 +206,11 @@ section {
 	width: 175px;
 	height: 275px;
 	float: left;
-	margin-left: 3.5%;
+	margin-left: 1.20%;
 	background-color: #4d648d;
 	box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 }
 
-.box :first-child {
-	
-}
 
 .box p {
 	color: white;
@@ -221,8 +219,17 @@ section {
 	margin: 3px auto;
 	font-size: 7pt;
 	text-align: justify;
+	letter-spacing: 0.2px;
+	word-break: break-all;
 	overflow: auto;
 }
+
+.box h6 {
+ 	height: 25px;
+ 	margin: 5px auto;!important
+
+ }
+
 
 .atributes {
 	position: relative;
@@ -231,11 +238,18 @@ section {
 	margin: 0 auto;
 }
 
+.atributes h6 {
+	margin-top: 10px;
+	height: 15px;
+}
+
+
 .atributes img {
 	position: relative; 
 	float: right;
 	top: 6px;
 	width: 50px;
+	height: 10px;
 }
 
 
