@@ -32,10 +32,12 @@ h6 {
 /***NAVBAR***/
 
 nav {
+	position: relative;
 	width: 100%;
 	height: 40px;
 	background-color: #4d648d;
-	box-shadow: 5px 0 5px black;
+	box-shadow: 0 2px 15px 1px black;
+	z-index: 1;
 }
 
 .logo-top {
@@ -149,6 +151,7 @@ nav {
 	border: 0;
 	text-align: center;
 	color: #242424;
+	z-index: 1; !important
 }
 
 /*** Advertisement ***/
@@ -197,6 +200,18 @@ section {
 }
 
 .free-courses {
+	width: 100%;
+	height: 400px;
+	margin-top: 25px;	
+}
+
+.paid-courses {
+	width: 100%;
+	height: 400px;
+	margin-top: 25px;	
+}
+
+.top-courses {
 	width: 100%;
 	height: 400px;
 	margin-top: 25px;	
@@ -255,4 +270,103 @@ section {
 	height: 10px;
 }
 
+.courses-button-wrapper {
+	width: 164.4333px;
+	margin: 0 auto;
+}
 
+.courses-button {
+	color: white;
+	background-color: #33ccf3;
+	padding: 20px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16pt;
+	text-decoration: none;
+
+}
+
+.courses-button:hover {
+	box-shadow: 2px 2px 8px black;
+	transition: 0.5s;
+}
+
+/** Footer **/
+
+footer {
+	width: 100%;
+	background-color: #1a1a24;
+	min-height: 200px;
+	margin-top: 50px;
+	color: white;
+}
+
+footer p {
+	text-align: center;
+	font-size: 8pt;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 0;
+	clear: both;
+}
+
+.about {
+	width: 300px;
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+
+}
+
+.about p {
+	text-align: justify;
+	font-weight: bold;
+	font-size: 8pt;
+
+}
+
+.about img {
+	width: 120px;
+}
+
+.links {
+	width: 460px;
+	float: right;
+}
+
+.link-wrapper {
+	width: 100px;
+	height: inherit;
+	float: left;
+}
+
+.link-wrapper h5 {
+	text-align: center;
+	font-size: 9pt;
+}
+
+.link-wrapper ul {
+	float: left;
+	margin: 0;
+}
+
+.link-wrapper ul li {
+	margin: 0;
+	list-style: none;
+}
+
+.link-wrapper ul li a {
+	color: white;
+	font-size: 7pt;
+	text-decoration: none;
+}
+
+.stores {
+	width: 100%;
+	height: 30px;
+}
+
+.stores img{
+	width: 100px;
+	float: left;
+}
