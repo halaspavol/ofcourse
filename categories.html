@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>OfCourse</title>
+	<title>OfCourse | Categories</title>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;subset=latin-ext" rel="stylesheet"> 
 	<link rel="stylesheet" href="style.css">
 	<link rel="icon" sizes="128x128" href="favicon.png">
@@ -13,18 +13,19 @@
 	<div class="container">
 		
 		<nav>
-			<img class="logo-top" src="logo.png" width="125" height="34" alt="Logo-top">
-
+			<a href="index.html">
+				<img class="logo-top" src="logo.png" width="125" height="34" alt="Logo-top">
+			</a>
 			<div class="search-bar">
 				<input type="text" placeholder="Search for Courses">
 				
-				<button id="search" onclick="#"> <img src="img/magnifying-glass.png" width="20px" alt="Search icon"> </button> 
+				<button id="search"> <img src="img/magnifying-glass.png" width="20" alt="Search icon"> </button> 
 				
 			</div>
 
 			<div class="login">
 				<ul>
-					<li style="margin-top: 6px; margin-right: 15px;> <a href="#"> <img src="img/cart.png" width="25px" alt="Shopping cart"> </a> </li>
+					<li style="margin-top: 6px;margin-right: 15px;"> <a class="no-hover" href="#"> <img src="img/cart.png" width="25" alt="Shopping cart"> </a> </li>
 					<li> <a href="#"><span class="sign-in">Sign In </span> </a> </li>
 					<li> <a href="#"> Log In </a> </li>
 					<li> <a href="#"> Enterprise </a> </li>
@@ -32,47 +33,28 @@
 				</ul>
 			</div>		
 		</nav>
-
-		<div class="background-wrapper">
-			<div class="sale">
-				<p>SALE</p>
+		
+		<div class="categories-bg">
+			<div class="categories">
 				<ul>
-					<li>All courses for half</li>
-					<li>If you buy 2 courses, 3rd is for free</li>
-					<li>New free courses everyday</li>
+					<li><a href="">Development</a></li>
+					<li><a href="">Business</a></li>
+					<li><a href="">IT&Software</a></li>
+					<li><a href="">Personal development</a></li>
+					<li><a href="">Design</a></li>
+					<li><a href="">Marketing</a></li>
+					<li><a href="">Office Productivity</a></li>
+					<li><a href="">Music</a></li>
 				</ul>
-				<input type="text" placeholder="Find your topic">
-			</div>
 
-			<div class="advertisement">
-				<div class="ad">
-					<p>Houndreds of free courses</p>
-				</div>
 
-				<div class="ad">
-					<p style="margin-top: 33px;">Requalifications</p>
-				</div>
-
-				<div class="ad">
-					<p>You can learn anything</p>
-				</div>
 			</div>
 		</div>
 
 		<section>
 		
-			<div class="requalifications">
-				<h1>Requalifications</h1>
-				<img src="companies/allianz.png" alt="allianz">
-				<img src="companies/bluescope.png" alt="bluescope">
-				<img src="companies/canada.png" alt="canada life">
-				<img src="companies/fastmover.png" alt="fast mover">
-				<img src="companies/infitnit.png" alt="infinit">
-				<img src="companies/shark.png" alt="shark wheel">
-			</div>
-
-			<div class="free-courses">
-				<h1>Free Courses</h1>
+			<div class="categories-content">
+				<h1>Development</h1>
 				<div class="box">
 					<img src="img/courses/react-logo.png" alt="react-logo">
 					<h6>Foundementals of React</h6>
@@ -144,8 +126,8 @@
 				
 			</div>
 
-			<div class="paid-courses">
-				<h1>Paid Courses</h1>
+			<div class="categories-content">
+				<h1>Business</h1>
 				<div class="box">
 					<img src="img/courses/react-logo.png" alt="react-logo">
 					<h6>Foundementals of React</h6>
@@ -216,8 +198,8 @@
 				</div>
 			</div>
 
-			<div class="top-courses">
-				<h1>Top courses</h1>
+			<div class="categories-content">
+				<h1>IT & Software</h1>
 				<div class="box">
 					<img src="img/courses/react-logo.png" alt="react-logo">
 					<h6>Foundementals of React</h6>
@@ -289,7 +271,7 @@
 
 			</div>
 			<div class="courses-button-wrapper">
-				<a class="courses-button" href="#">All Courses</a>
+				<a class="courses-button" href="#">Load more</a>
 			</div>
 		</section>
 

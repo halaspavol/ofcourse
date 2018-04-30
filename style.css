@@ -88,7 +88,7 @@ nav {
 	margin: 9.5px 8px;
 }
 
-.login ul li a{
+.login ul li a {
 	text-decoration: none;
 	padding: 3px;
 	color: white;
@@ -100,6 +100,10 @@ nav {
 	border-radius: 6px;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
+}
+
+.login ul li:first-child a:hover {
+	background-color: #4d648d;
 }
 
 .login ul li:nth-child(3) {
@@ -220,25 +224,11 @@ section {
 	margin-left: 3%;
 }
 
-.free-courses {
+.free-courses,.paid-courses ,.top-courses {
 	width: 100%;
 	height: 400px;
 	margin-top: 25px;
 	clear: both;	
-}
-
-.paid-courses {
-	width: 100%;
-	height: 400px;
-	margin-top: 25px;	
-	clear: both;
-}
-
-.top-courses {
-	width: 100%;
-	height: 400px;
-	margin-top: 25px;	
-	clear: both;
 }
 
 .box {
@@ -326,6 +316,7 @@ footer {
 	min-height: 200px;
 	margin-top: 50px;
 	color: white;
+	clear: both;
 }
 
 footer p {
@@ -401,3 +392,73 @@ footer p {
 	width: 100px;
 	float: left;
 }
+
+/*** CATEGORIES ***/
+.categories-bg {
+	width: 100%;
+	background-color: #4d648d;
+	height: 40px;
+}
+
+.categories {
+	width: 80%;
+	height: inherit;
+	margin: 0 auto;
+	
+}
+
+.categories ul {
+	margin: 0;
+	height: inherit;
+
+}
+
+.categories ul li {
+	float: left;
+	list-style: none; 
+	margin-left: 2%;
+	margin-top: 1%;
+	overflow: hidden;
+}
+	
+
+
+.categories ul li a{
+	color: #ddd;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 11pt;
+	padding: 3px;
+	border-radius: 10px;
+
+
+}
+
+.categories ul li a:hover {
+	background-color: #33ccf3;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+.categories-content {
+	width: 100%;
+	height: 400px;
+	margin-top: 25px;
+	clear: both;
+}
+
+.categories-content h1 {
+	text-align: left;
+}
+
+
+/*** MEDIA QUERIES ***/
+
+@media (min-width: 1900px) {
+	.categories ul li {
+		margin-left: 4%;
+	}
+}
+
+
+
