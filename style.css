@@ -256,7 +256,6 @@ section {
 .box h6 {
  	height: 25px;
  	margin: 5px auto;
- 	float: ;
  }
 
  .box img {
@@ -453,9 +452,59 @@ footer p {
 
 /*** COURSE ***/
 .course-bg {
-	width: °100%;
+	width: 100%;
+	height: 400px;
+	background-image: url('img/bg/react_bg.png');
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
 }
 
+.bg-cover {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.course-bg-heading {
+	width: 30%;
+	float: left;
+	margin-top: 30px; 
+}
+
+.course-bg-heading h1{
+	margin: 0;
+	color: white;
+}
+
+.course-bg-heading h1 span{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px;
+	border-radius: 6px;
+}
+
+.course-bg-video {
+	width: 300px;
+	height: 150px;
+	background-image: url(img/video_img/react_video_img.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	clear: both;
+	margin: 0 auto;
+	box-shadow: 2px 2px 6px black;
+
+}
+
+.course-bg-video img {
+	width: 20%;
+	margin-top: 15%;
+	margin-left: 40%;
+}
+
+.course-bg-video img:hover {
+	opacity: 0.8;
+}
 
 
 /*** MEDIA QUERIES ***/
