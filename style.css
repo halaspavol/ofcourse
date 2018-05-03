@@ -533,12 +533,49 @@ footer p {
 	padding: 12px 0;
 }
 
-.left-box {
-	width: 30%;
-	min-height:300px;
+.left-box,
+.right-box {
+	width: 40%;
+	float: left;
+	min-height: 250px;
+	background-color: #ddd;
+	margin: 20px 0;
+	border-radius: 6px;
+	box-shadow: -2px 2px 6px rgba(0, 0, 0, 0.5);
+	
+}
+
+.right-box {
+	float: right;
+	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.left-box h3, .right-box h3 {
+	text-align: center;
+}
+
+.left-box p {
+	text-align: center;
+	width: 80%;
+	margin: 50px auto 0 auto;
+}
+
+.right-box ul {
+	width: 80%;
+	margin: 0 auto; 
+	padding: 0;
+}
+
+.right-box ul li {
+	list-style-type: "- ";
+	font-size: 10pt;
 }
 
 
+
+.similar {
+	clear: both;
+}
 
 /*** MEDIA QUERIES ***/
 
