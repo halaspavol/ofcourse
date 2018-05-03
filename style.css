@@ -35,7 +35,7 @@ nav {
 	height: 40px;
 	background-color: #4d648d;
 	-webkit-box-shadow: 0 2px 15px 1px black;
-	        box-shadow: 0 2px 15px 1px black;
+	box-shadow: 0 2px 15px 1px black;
 	z-index: 1;
 }
 
@@ -532,6 +532,13 @@ footer p {
 	font-size: 12pt;
 	padding: 12px 0;
 }
+
+.left-box {
+	width: 30%;
+	min-height:300px;
+}
+
+
 
 /*** MEDIA QUERIES ***/
 
