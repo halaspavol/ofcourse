@@ -24,9 +24,7 @@ h6 {
 	font-size: 7.5pt; 
 	text-align: center;
 	clear: right;
-	text-transform: capitalize;
-
-	
+	text-transform: capitalize;	
 }
 
 /***NAVBAR***/
@@ -484,8 +482,8 @@ footer p {
 }
 
 .course-bg-video {
-	width: 300px;
-	height: 150px;
+	width: 350px;
+	height: 200px;
 	background-image: url(img/video_img/react_video_img.jpg);
 	background-position: center;
 	background-size: cover;
@@ -493,19 +491,47 @@ footer p {
 	clear: both;
 	margin: 0 auto;
 	box-shadow: 2px 2px 6px black;
-
 }
 
 .course-bg-video img {
 	width: 20%;
-	margin-top: 15%;
+	margin-top: 20%;
 	margin-left: 40%;
 }
-
 .course-bg-video img:hover {
 	opacity: 0.8;
 }
 
+.course-bg-selling {
+	width: 20%;
+	height: 80px;
+	float: right;
+}
+
+.buy {
+	width: 100px;
+	background-color: #4d648d;	
+}
+
+.add {
+	width: 100px;
+	background-color: #33ccf3;
+}
+
+.headings h2{
+	font-size: 18pt;
+	font-weight: bold;
+	color:white;
+	text-align: center;
+	margin: 0;
+	padding: 8px 0;
+	cursor: pointer;
+}
+
+.add h2 {
+	font-size: 12pt;
+	padding: 12px 0;
+}
 
 /*** MEDIA QUERIES ***/
 
