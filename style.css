@@ -571,11 +571,77 @@ footer p {
 	font-size: 10pt;
 }
 
+.description {
+	width: 100%;
+	min-height: 400px;
+	clear: both;
+	padding: 20px 0;
+}
 
+.description h1 {
+	text-align: left;
+	font-size: 17pt;
+}
+
+.description h2 {
+	font-size: 12pt;
+	text-align: center;
+}
+
+.description p {
+	font-size: 11pt;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.instructor {
+	width: 100%;
+	height: 250px;
+	border-radius: 6px;
+	margin: 20px 0;
+	background-color: #ddd;
+}
+
+.instructor-img {
+	width: 300px;
+	height: inherit;
+	float: left;
+	height: inherit;
+}
+
+.instructor-img img {
+	width: 200px;
+	border-radius: 50%;
+	margin: 25px 0 25px 60px;
+}
+
+.instructor-about {
+	width: 60%;
+	float: right;
+	margin-right: 20px;
+}
+
+.instructor-about h2 {
+	text-align: center;
+}
+
+.instructor-about p {
+	text-align: justify;
+	word-break: normal;
+	font-weight: bold;
+	font-size: 10pt;
+}
 
 .similar {
 	clear: both;
 }
+
+.similar h1 {
+	text-align-last: left;
+	font-size: 17pt;
+}
+
 
 /*** MEDIA QUERIES ***/
 
