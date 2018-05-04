@@ -634,7 +634,10 @@ footer p {
 }
 
 .similar {
+	width: 100%;
+	height: 350px;
 	clear: both;
+	margin: 20px 0;
 }
 
 .similar h1 {
